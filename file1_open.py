@@ -1,5 +1,5 @@
 f = open("C:\\Users\\nehaa\\OneDrive\\Documents\\neha\\python\\sample1.txt", "r")
 print(f.read())
-a = open("C:\\Users\\nehaa\\OneDrive\\Documents\\neha\\python\\sample1.txt","w")   
-print(a.write("what you are"))
-a.close()
+with open("C:\\Users\\nehaa\\OneDrive\\Documents\\neha\\python\\sample1.txt","w") as f:
+    f.write("who you are?")
+# a.close()
